@@ -1,0 +1,29 @@
+{
+  "name": "vmp",
+  "version": "1.0.0",
+  "description": "video player",
+  "main": "index.html",
+  "keywords": [
+    "video",
+    "play"
+  ],
+  "window": {
+    "title": "vmp",
+    "icon": "icon.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 700,
+    "height": 400,
+    "position": "center",
+    "min-width": 400,
+    "min-height": 200,
+    "max-width": 800,
+    "max-height": 400
+  },
+  "author": "vitalii tsupylo",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "laters",
+    "handlebars": "^4.0.11"
+  }
+}

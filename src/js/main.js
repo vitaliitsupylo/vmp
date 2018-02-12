@@ -1,17 +1,11 @@
-;
-(() => {
-    'use strict';
-
-    /*variables*/
-
-    /*reader file*/
-    const openFile = document.querySelector('.menu_top .file');
-    const video = document.getElementById('video');
+import Model from './modules/model';
+import View from './modules/view';
+import Controller from './modules/controller';
 
 
-    /*reader file*/
-    if (openFile !== null) {
-        (require('./modules/reader'))(openFile, video);
-    }
+const model = new Model();
+const view = new View();
+const controller = new Controller(model, view);
 
-})();
+
+
